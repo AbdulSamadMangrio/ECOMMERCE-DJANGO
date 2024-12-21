@@ -69,3 +69,7 @@ class Payment(models.Model):
     payment_method = models.CharField(max_length=50)
     transaction_id = models.CharField(max_length=255)
     status = models.CharField(max_length=50)
+
+
+# Shopping Cart and Checkout
+
